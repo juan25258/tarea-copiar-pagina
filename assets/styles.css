@@ -2,6 +2,110 @@
     font-family: 'Encode Sans', arial, sans-serif;
 }
 
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-top {
+    border-radius: 0;
+    padding: 0 0.35rem;
+}
+
+.navbar-default {
+    position: relative;
+    background-color: #fff;
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    z-index: 9;
+}
+
+.navbar > .container{
+    display: inline-block;
+}
+
+.bg-celeste-argentina {
+    background-color: #37bbed !important;
+}
+
+.navbar.navbar-top .input-group {
+    width: 500px;
+    margin-top: 13px;
+    margin-left: 30px;
+  }
+
+#cd-login {
+    display: inline-block;
+  }
+
+#navbarSupportedContent {
+    margin: 2px 0;
+}
+
+.form-control {
+    width: 450px;
+    background-color: #ebf8fd;
+    color: #303030;
+}
+
+.btn-mi-argentina{
+    color: #0072bb;
+    background-color: #fff;
+    text-decoration: none;
+    margin-right: 8px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 13px;
+    padding: 0.6rem 1rem;
+}
+
+.btn-mi-argentina:hover{
+    color: #303030;
+    background-color: #fff;
+    text-decoration: none;
+    margin-right: 8px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius: .375rem 0 0 .375rem;
+}
+
+.btn-search{
+    border-radius: 0 30px 30px 0;
+    background-color: #fff;
+    color:#0072bb;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-search:hover{
+    background-color: #fff;
+    color:#0072bb;
+}
+.btn-search:target{
+    border: 2px solid yellow;
+    background-color: #fff;
+    color:#0072bb;
+}
+
+
 .jumbotron {
     position: relative;
     background-position: center center;
